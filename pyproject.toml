@@ -11,9 +11,10 @@ geopandas = "^0.14.0"
 matplotlib = "^3.8.1"
 seaborn = "^0.13.0"
 plotly = "^5.18.0"
+nbformat = "^5.9.2"
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.11.0"
+black = {extras = ["jupyter"], version = "^23.11.0"}
 ruff = "^0.1.5"
 ipykernel = "^6.26.0"
 
